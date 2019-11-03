@@ -9,7 +9,7 @@ import fr.d2factory.libraryapp.member.Member;
 
 public class LibraryImplementation implements Library {
 
-	BookRepository bookRepo;
+	private BookRepository bookRepo;
 
 	/**
 	 * Constructor
